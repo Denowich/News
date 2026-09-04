@@ -6,8 +6,8 @@ export const NewsBanner = ({ item }) => {
     <div className={styles.banner}>
       <Image image={item?.image} />
       <h1 className={styles.title}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, modi
-        provident fuga non blanditiis aperiam eos voluptatibus cumque eum nihil!
+        "Dublin Archbishop says ‘young people have all but given up hope of
+        having a home of their own’"
       </h1>
       {/* {item.title} */}
       <p className={styles.author}>by Denis Globa</p>
