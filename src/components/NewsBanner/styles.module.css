@@ -1,16 +1,18 @@
 .banner {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
   padding: 10px;
 
-  border-bottom: 2px solid #f0f4f5;
+  border-bottom: 3px solid #f0f4f5;
 }
 
 .title {
   font-size: 22px;
+  font-weight: 600;
 }
 .author {
-  color: darkgreen;
+  color: rgb(36, 37, 38);
   font-size: 17px;
+  /* text-align: right; */
 }
