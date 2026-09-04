@@ -2,9 +2,11 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-  background: rgb(238, 231, 213);
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
+
+  background: rgb(206, 204, 205);
 }
 
 .container {

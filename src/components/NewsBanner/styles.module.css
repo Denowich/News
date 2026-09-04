@@ -3,12 +3,14 @@
   flex-direction: column;
   gap: 12px;
   padding: 10px;
+
+  border-bottom: 2px solid #f0f4f5;
 }
 
 .title {
-  font-size: 24px;
+  font-size: 22px;
 }
 .author {
   color: darkgreen;
-  font-size: 18px;
+  font-size: 17px;
 }
