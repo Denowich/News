@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  padding-left: 8px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.author {
+  font-size: 12px;
+  color: rgb(36, 37, 38);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.wrapper {
+  background: powderblue;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}

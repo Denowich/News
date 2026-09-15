@@ -23,7 +23,7 @@ export const Main = () => {
     <main className={styles.main}>
       {news.length > 0 ? <NewsBanner item={news[0]} /> : null}
 
-      <NewsList item={news} />
+      <NewsList news={news} />
     </main>
   );
 };
