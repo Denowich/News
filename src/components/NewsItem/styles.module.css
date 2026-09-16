@@ -1,8 +1,7 @@
 .item {
   display: flex;
-  gap: 8px;
+  gap: 10px;
   width: 100%;
-  padding-left: 8px;
 }
 
 .title {
@@ -17,7 +16,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
 }
 
 .wrapper {

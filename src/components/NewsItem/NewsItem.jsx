@@ -9,8 +9,8 @@ export const NewsItem = ({ item }) => {
       ></div>
 
       <div className={styles.info}>
-        <h1 className={styles.title}>" - No, this is a stupid dog"</h1>
-        <p className={styles.author}>by Vika Globa</p>
+        <h1 className={styles.title}>{item.title}</h1>
+        <p className={styles.author}>by {item.author}</p>
       </div>
     </li>
   );
