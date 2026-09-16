@@ -4,13 +4,13 @@ export const formatTimeAgo = (dateString) => {
   const secondPast = (now.getTime() - date.getTime()) / 1000;
 
   if (secondPast < 60) {
-    return `$(Math.floor(secondPast))s ago`;
+    return `${Math.floor(secondPast)}s ago`;
   }
   if (secondPast < 3600) {
-    return `$(Math.floor(secondPast / 60))s ago`;
+    return `${Math.floor(secondPast / 60)}s ago`;
   }
   if (secondPast < 86400) {
-    return `$(Math.floor(secondPast / 3600))s ago`;
+    return `${Math.floor(secondPast / 3600)}s ago`;
   }
   if (secondPast < 86400) {
     const day = Math.floor(secondPast / 86400);

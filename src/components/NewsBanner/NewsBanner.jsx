@@ -1,3 +1,4 @@
+import { formatTimeAgo } from '../helpers/formatTimeAgo';
 import { Image } from '../Image/Image';
 import styles from './styles.module.css';
 
@@ -7,8 +8,9 @@ export const NewsBanner = ({ item }) => {
       <Image image={item?.image} />
       <h1 className={styles.title}>{item.title}</h1>
 
-      <p className={styles.author}>by Denis Globa</p>
-      {/* {item.author} */}
+      <p className={styles.author}>
+        {formatTimeAgo(item.published)} by Denis Globa
+      </p>
     </div>
   );
 };

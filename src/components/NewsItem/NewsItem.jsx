@@ -1,3 +1,4 @@
+import { formatTimeAgo } from '../helpers/formatTimeAgo';
 import styles from './styles.module.css';
 
 export const NewsItem = ({ item }) => {
@@ -10,7 +11,9 @@ export const NewsItem = ({ item }) => {
 
       <div className={styles.info}>
         <h1 className={styles.title}>{item.title}</h1>
-        <p className={styles.author}>by {item.author}</p>
+        <p className={styles.author}>
+          {formatTimeAgo(item.published)} by {item.author}
+        </p>
       </div>
     </li>
   );
